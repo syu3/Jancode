@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+NSString*svStr;
+@interface ViewController : UIViewController{
+    int number;
+    
+}
 
-@interface ViewController : UIViewController
 
 @end

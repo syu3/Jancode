@@ -21,6 +21,7 @@
 		4BC6AE7619AD5F7A00F7F74F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC6AE5819AD5F7A00F7F74F /* UIKit.framework */; };
 		4BC6AE7E19AD5F7A00F7F74F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6AE7C19AD5F7A00F7F74F /* InfoPlist.strings */; };
 		4BC6AE8019AD5F7A00F7F74F /* jancodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6AE7F19AD5F7A00F7F74F /* jancodeTests.m */; };
+		4BC6AE8B19AD60D700F7F74F /* afirietoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6AE8A19AD60D700F7F74F /* afirietoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4BC6AE7B19AD5F7A00F7F74F /* jancodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jancodeTests-Info.plist"; sourceTree = "<group>"; };
 		4BC6AE7D19AD5F7A00F7F74F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BC6AE7F19AD5F7A00F7F74F /* jancodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jancodeTests.m; sourceTree = "<group>"; };
+		4BC6AE8919AD60D700F7F74F /* afirietoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afirietoViewController.h; sourceTree = "<group>"; };
+		4BC6AE8A19AD60D700F7F74F /* afirietoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afirietoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4BC6AE6619AD5F7A00F7F74F /* Main.storyboard */,
 				4BC6AE6919AD5F7A00F7F74F /* ViewController.h */,
 				4BC6AE6A19AD5F7A00F7F74F /* ViewController.m */,
+				4BC6AE8919AD60D700F7F74F /* afirietoViewController.h */,
+				4BC6AE8A19AD60D700F7F74F /* afirietoViewController.m */,
 				4BC6AE6C19AD5F7A00F7F74F /* Images.xcassets */,
 				4BC6AE5B19AD5F7A00F7F74F /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BC6AE6B19AD5F7A00F7F74F /* ViewController.m in Sources */,
+				4BC6AE8B19AD60D700F7F74F /* afirietoViewController.m in Sources */,
 				4BC6AE6519AD5F7A00F7F74F /* AppDelegate.m in Sources */,
 				4BC6AE6119AD5F7A00F7F74F /* main.m in Sources */,
 			);
