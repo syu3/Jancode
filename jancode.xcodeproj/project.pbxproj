@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B39385319AE913C00F2AB85 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B39385219AE913C00F2AB85 /* icon.png */; };
 		4BC6AE5519AD5F7A00F7F74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC6AE5419AD5F7A00F7F74F /* Foundation.framework */; };
 		4BC6AE5719AD5F7A00F7F74F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC6AE5619AD5F7A00F7F74F /* CoreGraphics.framework */; };
 		4BC6AE5919AD5F7A00F7F74F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC6AE5819AD5F7A00F7F74F /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B39385219AE913C00F2AB85 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		4BC6AE5119AD5F7A00F7F74F /* jancode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jancode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC6AE5419AD5F7A00F7F74F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BC6AE5619AD5F7A00F7F74F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +133,7 @@
 		4BC6AE5B19AD5F7A00F7F74F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4B39385219AE913C00F2AB85 /* icon.png */,
 				4BC6AE5C19AD5F7A00F7F74F /* jancode-Info.plist */,
 				4BC6AE5D19AD5F7A00F7F74F /* InfoPlist.strings */,
 				4BC6AE6019AD5F7A00F7F74F /* main.m */,
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B39385319AE913C00F2AB85 /* icon.png in Resources */,
 				4BC6AE6D19AD5F7A00F7F74F /* Images.xcassets in Resources */,
 				4BC6AE5F19AD5F7A00F7F74F /* InfoPlist.strings in Resources */,
 				4BC6AE6819AD5F7A00F7F74F /* Main.storyboard in Resources */,
@@ -462,6 +466,7 @@
 				4BC6AE8519AD5F7A00F7F74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BC6AE8619AD5F7A00F7F74F /* Build configuration list for PBXNativeTarget "jancodeTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +475,7 @@
 				4BC6AE8819AD5F7A00F7F74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
