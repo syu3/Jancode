@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 NSString*svStr;
-@interface ViewController : UIViewController{
+NSString*svStr1;
+int a;
+@interface ViewController : UIViewController<UITextFieldDelegate>{
     int number;
+    IBOutlet UITextField*filed;
+    NSString *kiwado;
+
+
     
 }
 

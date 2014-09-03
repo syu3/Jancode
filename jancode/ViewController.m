@@ -35,8 +35,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    
+    filed.delegate = self;
+    
+    
     getBarcodeString = nil;
     [self barcodeCap];
+    
+    
     
     
     number = 0;
@@ -53,6 +60,40 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)sender {
+    
+
+    
+    // キーボードを閉じる
+    [sender resignFirstResponder];
+    
+    return TRUE;
+}
+
+
+
+-(IBAction)kensaku{
+    
+
+    
+    a= 1;
+    kiwado = filed.text;
+    get = kiwado;
+    svStr1 = get;
+    
+
+    
+    afirietoViewController *bview = [self.storyboard instantiateViewControllerWithIdentifier:@"b"];
+    [self presentViewController:bview animated:YES completion:nil];
+    
+    
+    afirietoViewController *secondViewController = [[afirietoViewController alloc] init];
+
+}
+
+
+
 
 -(void)barcodeCap{
     
@@ -97,6 +138,9 @@
 
 - (void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection{
     
+    
+    
+    a = 2;
     
     
     
