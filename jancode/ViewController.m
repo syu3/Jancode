@@ -61,6 +61,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    sleep(10);
+    return YES;
+}
+
+
+
+
+
 - (BOOL)textFieldShouldReturn:(UITextField *)sender {
     
 
