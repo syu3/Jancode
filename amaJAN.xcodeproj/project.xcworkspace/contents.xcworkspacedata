@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:jancode.xcodeproj">
+      location = "self:amaJAN.xcodeproj">
    </FileRef>
 </Workspace>

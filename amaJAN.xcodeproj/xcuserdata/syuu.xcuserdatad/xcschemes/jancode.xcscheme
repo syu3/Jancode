@@ -17,7 +17,7 @@
                BlueprintIdentifier = "4BC6AE5019AD5F7A00F7F74F"
                BuildableName = "jancode.app"
                BlueprintName = "jancode"
-               ReferencedContainer = "container:jancode.xcodeproj">
+               ReferencedContainer = "container:amaJAN.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "4BC6AE7119AD5F7A00F7F74F"
                BuildableName = "jancodeTests.xctest"
                BlueprintName = "jancodeTests"
-               ReferencedContainer = "container:jancode.xcodeproj">
+               ReferencedContainer = "container:amaJAN.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "4BC6AE5019AD5F7A00F7F74F"
             BuildableName = "jancode.app"
             BlueprintName = "jancode"
-            ReferencedContainer = "container:jancode.xcodeproj">
+            ReferencedContainer = "container:amaJAN.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "4BC6AE5019AD5F7A00F7F74F"
             BuildableName = "jancode.app"
             BlueprintName = "jancode"
-            ReferencedContainer = "container:jancode.xcodeproj">
+            ReferencedContainer = "container:amaJAN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "4BC6AE5019AD5F7A00F7F74F"
             BuildableName = "jancode.app"
             BlueprintName = "jancode"
-            ReferencedContainer = "container:jancode.xcodeproj">
+            ReferencedContainer = "container:amaJAN.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

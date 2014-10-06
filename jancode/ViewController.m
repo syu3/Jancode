@@ -38,6 +38,7 @@
     
     
     filed.delegate = self;
+    filed.placeholder = @"キーワード入力";
     
     
     getBarcodeString = nil;

@@ -25,6 +25,7 @@
 		4BC6AE7E19AD5F7A00F7F74F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BC6AE7C19AD5F7A00F7F74F /* InfoPlist.strings */; };
 		4BC6AE8019AD5F7A00F7F74F /* jancodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6AE7F19AD5F7A00F7F74F /* jancodeTests.m */; };
 		4BC6AE8B19AD60D700F7F74F /* afirietoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BC6AE8A19AD60D700F7F74F /* afirietoViewController.m */; };
+		4BEA0ADF19C1E2B100C1382D /* button75.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BEA0ADE19C1E2B000C1382D /* button75.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		4BC6AE7F19AD5F7A00F7F74F /* jancodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jancodeTests.m; sourceTree = "<group>"; };
 		4BC6AE8919AD60D700F7F74F /* afirietoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = afirietoViewController.h; sourceTree = "<group>"; };
 		4BC6AE8A19AD60D700F7F74F /* afirietoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = afirietoViewController.m; sourceTree = "<group>"; };
+		4BEA0ADE19C1E2B000C1382D /* button75.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button75.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +139,7 @@
 		4BC6AE5B19AD5F7A00F7F74F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4BEA0ADE19C1E2B000C1382D /* button75.mp3 */,
 				4B3BDB8E19BA9ADD00AB8D5C /* 2x.png */,
 				4B3BDB8F19BA9ADD00AB8D5C /* R4.png */,
 				4B39385219AE913C00F2AB85 /* icon.png */,
@@ -221,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4BC6AE4C19AD5F7A00F7F74F /* Build configuration list for PBXProject "jancode" */;
+			buildConfigurationList = 4BC6AE4C19AD5F7A00F7F74F /* Build configuration list for PBXProject "amaJAN" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -245,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEA0ADF19C1E2B100C1382D /* button75.mp3 in Resources */,
 				4B3BDB9019BA9ADD00AB8D5C /* 2x.png in Resources */,
 				4B3BDB9119BA9ADD00AB8D5C /* R4.png in Resources */,
 				4B39385319AE913C00F2AB85 /* icon.png in Resources */,
@@ -473,7 +477,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4BC6AE4C19AD5F7A00F7F74F /* Build configuration list for PBXProject "jancode" */ = {
+		4BC6AE4C19AD5F7A00F7F74F /* Build configuration list for PBXProject "amaJAN" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BC6AE8119AD5F7A00F7F74F /* Debug */,
